@@ -1,0 +1,296 @@
+html{
+    box-sizing: border-box;
+    zoom: 80%;
+  }
+  *,*::before, *::after {
+    box-sizing: inherit;
+  }
+  body{
+    margin: 0;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+    
+  }
+
+  .pt-sans-regular {
+      font-family: "PT Sans", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+    .pt-sans-bold {
+      font-family: "PT Sans", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+    }
+    
+    .pt-sans-regular-italic {
+      font-family: "PT Sans", sans-serif;
+      font-weight: 400;
+      font-style: italic;
+    }
+    
+    .pt-sans-bold-italic {
+      font-family: "PT Sans", sans-serif;
+      font-weight: 700;
+      font-style: italic;
+    }
+    
+    .header {
+        min-height: 60px;
+        max-width: 1920px;
+        background-image: url(../img/Rectangle\ 1firs-screen-bg.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        
+        
+      }
+      .header, .header * {
+        margin: 0;
+        padding: 0;
+    }
+      .header__title {
+        
+      }
+      .Framelogo {
+        top: 17px;
+        left: 374px; 
+        z-index: 0;
+        width: 119px;
+        height: 26px;
+        position: absolute;
+    }
+  
+  
+      
+      .navbar-frame {
+        text-decoration: none;
+        list-style-type: none;
+      }
+      .tariffs  {
+        font-family: "PT Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        opacity: 0.7;
+        color: #fff ;
+        position: absolute;
+        text-decoration: none;
+        list-style-type: none;
+        z-index: 2;
+        left: 523px;
+        top: 19px;
+      }
+      .tariffs:hover {
+        opacity: 1;
+        color: #fff;
+      }
+        
+      .contacts{
+        font-family: "PT Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        text-decoration: none;
+        list-style-type: none;
+        opacity: 0.7;
+        color: #fff ;
+        z-index: 2;
+        position: absolute;
+        top: 19px;
+        left: 614px;
+      }
+      .contacts:hover{
+        opacity: 1;
+        color: #fff;
+      }
+      
+      .number{
+        font-family: "PT Sans", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 18px;
+        color: #fff;
+        top: 19px; 
+        left: 1171px;
+        position: absolute;
+        z-index: 2;      
+          
+      }
+
+      .entrance {
+        font-family: "PT Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        text-decoration: none;
+        list-style-type: none;
+        opacity: 0.7;
+        color: #fff ;
+        position: absolute;
+        z-index: 2;
+        top: 19px;
+        left: 1349px;
+      }
+      .entrance:hover {
+        opacity: 1;
+        color: #fff;
+      }
+      .registration {
+        font-family: "PT Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 15px;
+        text-decoration: none;
+        list-style-type: none;
+        opacity: 1;
+        color: #fff ;
+        background-color: #0584FE;
+        border-radius: 10px;
+        padding: 12px 12px 12px;
+        
+        z-index: 2;
+        position: absolute;
+        top: 9px;
+        left: 1418px;
+      }
+      .registration:hover{
+        border-radius: 10px;
+        transform: scale(1.1);
+      }
+      .registrationtext{
+        left: 374px;
+        position: fixed;
+        padding-top: 98px;
+      }
+
+.Titles{
+    display: flex;
+}
+
+      .MainPage {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    font-size: 13px;
+    text-decoration: none;
+    left: 160px;
+    color: black;
+    top: 70px;
+    list-style-type: none;
+    }
+    .MainPage:hover {
+        color: #0584FE;
+        }
+
+    .Documets {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    left: 267px;
+    top: 70px;
+    list-style-type: none;
+    }
+    .Documets:hover {
+       color: #0584FE;
+        }
+
+    .LicenceAccept {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    font-size: 13px;
+    opacity: 0.7;
+    color: black;
+    left: 340px;
+    top: 70px;
+    }
+    
+
+    
+    .First {
+        font-family: "PT Sans", sans-serif;
+        font-weight: 400x   ;
+        font-style: normal;
+        position: absolute;
+        font-size: 18px;
+        top: 172px;
+        left: 160px;
+        color: black;
+        
+    }
+    .Second {
+        font-family: "PT Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: absolute;
+        font-size: 18px;
+        top: 300px;
+        left: 160px;
+    }
+    .Third {
+        font-family: "PT Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: absolute;
+        font-size: 18px;
+        left: 160px;
+        top: 500px;
+    }
+    .Fourth {
+        font-family: "PT Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: absolute;
+        font-size: 18px;
+        left: 160px;
+        top: 700px;
+    }
+    .Fifth {
+        font-family: "PT Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: absolute;
+        font-size: 18px;
+        left: 160px;
+        top: 790px;
+    }
+    .title1 {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 41px;
+    opacity: 0.9;
+    position: absolute;
+    left: 160px;
+    top: 120px;    
+    }
+    .title2 {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 41px;
+    opacity: 0.9;
+    position: absolute;
+    left: 160px;
+    top: 448px;    
+    }
+    .title3 {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 41px;
+    opacity: 0.9;
+    position: absolute;
+    left: 160px;
+    top: 648px;   
+    }
+    
+    
